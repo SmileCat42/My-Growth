@@ -12,6 +12,7 @@ import lv7_2 from './assets/056.png'
 import lv8 from './assets/077.png'
 import lv9 from './assets/09.png'
 import lv10 from './assets/10.png'
+import lv11 from './assets/12.png'
 import AOS from 'aos'
 
 const Journey = () => {
@@ -38,7 +39,7 @@ const Journey = () => {
         { version: "Level 8", link: "https://github.com/SmileCat42/WebProgramming/tree/master/Project2_JSF/src/main/webapp", title: "⭐Project JSF", desc: "เป็นอีก 1 โปรเจคที่ทำด้วย Jakarta Servlet Face จากเดิมโปรเจค JSP จะรองรับให้ผู้เรียนจองที่นั่ง จะเพิ่มหรือลดหรือแก้ไขได้แค่ภายในบัญชีของตนเองเท่านั้น แต่โปรเจคนี้จะออกแบบมาสำหรับ Admin สำหรับจัดการผลิตภัณฑ์โดยตรงซึ่งก็คือวิชาเรียน โดยสามารถทำการเพิ่มลบแก้ไขรายวิชาได้โดยตรง มีการใช้ Programmatic view, Cookie, HTTPS และ LMS เข้ามาเล่นกับโปรเจคนี้", date: "Feb 2026", img: lv8 },
         { version: "Level 9", link: "https://github.com/SmileCat42/WebProgramming/tree/master/Project3_Nestjs", title: "⭐ Nest.js", desc: "โปรเจคนี้ทำด้วย Nest.js และ EJS ในการทำเว็ปร้านขายตุ๊กตาและพวงกุญแจ มีการกำหนด Role บนฐานข้อมูลว่าใครมีสิทธิ์ในการแค่ดูหรือจัดการสินค้าได้บ้าง", date: "Mar 2025", img: lv9 },
         { version: "Level 10", link: "https://github.com/SmileCat42/WebProgramming/tree/master/Project3_Nestjs", title: "JWT,SEO,CMS,HTTPS", desc: "โปรเจคเดิม Nest.js ได้มีการต่อยอดถึงความเป็นมืออาชีพ กอล์ฟได้มีการเพิ่มหลักการ JWT หรือการสร้าง Token ในการปกป้องข้อมูลผู้ใช้และ SEO ได้มีการประเมินจาก Lighthouse ได้ถึง 91 คะแนน ช่วยให้ค้นหาเพจได้เจอง่ายขึ้น อีกทั้งมีการสร้าง CMS ด้วย Wordpress ด้วยหน้าเพจสาขา 2 สุดท้ายสามารถรันแบบ HTTPS ได้สำเร็จบน NGROK", date: "Mar 2025", img: lv10 },
-        { version: "Level 11", link: "https://github.com/SmileCat42/WebProgramming/tree/master/Project1_JSP/web/Chapter7_Bootstrap", title: "⭐⭐ My Portfolio", desc: "สร้างเว็ปเพจรันผ่าน Github ด้วย React Tailwind เป็นเว็ปหน้าแรกของ Github ที่ใช้ในการโชว์ผลงาน โดยได้มีการหยิบไอเดียมาจาก Youtuber OualiCode และมีการปรับเนื้อหาให้เข้ากับ Port ของเรา", date: "Apr 2026", img: lv5 },
+        { version: "Level 11", link: "https://github.com/SmileCat42/WebProgramming/tree/master/Project1_JSP/web/Chapter7_Bootstrap", title: "⭐⭐ My Portfolio", desc: "สร้างเว็ปเพจรันผ่าน Github ด้วย React Tailwind เป็นเว็ปหน้าแรกของ Github ที่ใช้ในการโชว์ผลงาน โดยได้มีการหยิบไอเดียมาจาก Youtuber OualiCode และมีการปรับเนื้อหาให้เข้ากับ Port ของเรา", date: "Apr 2026", img: lv11 },
     ];
 
     return (
